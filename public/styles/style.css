@@ -1,0 +1,43 @@
+footer {
+    background-color: #E8D4B4;
+    bottom: 0;
+    /* left: 0; */
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: #FF896B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+main {
+    background-color: #EBE6E6;
+    padding: 5vmin;
+    flex: 1 0 auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.Icon {
+    float: right;
+}
+
+.blogBody {
+    background-color: #A9A9A9;
+}
